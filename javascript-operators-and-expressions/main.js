@@ -2,7 +2,7 @@ const height = 7;
 const width = 12;
 const area = width * height;
 console.log('Value of area:', area);
-console.log('Type of area:', area);
+console.log('Type of area:', typeof area);
 
 const bill = 46;
 const payment = 70;
