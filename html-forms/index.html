@@ -6,9 +6,9 @@
   <body>
     <h1>Coding Form!</h1>
     <form>
-      <p>Email</p>
-      <input type="text" id="comment" name="comment" value="" />
-      <p>Why is coding cool?</p>
+      <p><label for="email">Email</label></p>
+      <input type="email" id="email" name="comment" value="" />
+      <p><label for="simple">Why is coding cool?</label></p>
       <select id="simple" name="simple">
         <option selected>Select an Option</option>
         <option>Because it's interesting</option>
@@ -25,8 +25,8 @@
       <p>Would you like to sign up for more information?</p>
       <input type="checkbox" id="SignUp" />
       <label for="SignUp">Sign me up!</label>
-      <p>Comments</p>
-      <textarea cols="30" rows="8"></textarea>
+      <p><label for="comments">Comments</label></p>
+      <textarea cols="30" rows="8" id="comments"></textarea>
       <p><input type="submit" value="Submit" /></p>
     </form>
   </body>
