@@ -5,12 +5,16 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
+  The rule opens with a selector, then contains a set of curly braces, and inside the braces there is one or more declarations which are property-value pairs.
 
 - In CSS, how do you select elements by their `class` attribute?
+  By putting a dot '.' before the class in the selector.
 
 - In CSS, how do you select elements by their tag name?
+  By putting the tag name in the selector.
 
 - In CSS, how do you select an element by its `id` attribute?
+  By putting "#" before their id in the selctor.
 
 ## Notes
 
