@@ -1,0 +1,18 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.column-full {
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  background-color: white;
+  color: rgb(209, 76, 69);
+}
