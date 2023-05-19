@@ -39,6 +39,8 @@ body {
   border-color: rgb(209, 76, 69);
   margin-bottom: 00.75rem;
   padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 div > .img {
@@ -50,5 +52,4 @@ div > .img {
   margin-top: 2rem;
   width: 50%;
   align-items: flex-start;
-  font-size: rem;
 }
