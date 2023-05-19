@@ -1,18 +1,54 @@
 body {
-  width: 1000px;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: karla, sans-serif;
+}
+
+.column-full > h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.column-full > p {
+  width: 50%;
   margin: 0 auto;
 }
 
 .column-full {
   justify-content: center;
+  text-align: center;
+  width: 700px;
+  flex-basis: 100%;
 }
 
 .row {
   display: flex;
   justify-content: center;
+  padding-top: 3rem;
+}
+
+.column-half {
+  display: flex;
+  flex-basis: 50%;
+  width: 400px;
 }
 
 #button {
   background-color: white;
   color: rgb(209, 76, 69);
+  border-color: rgb(209, 76, 69);
+  margin-bottom: 00.75rem;
+  padding: 0.5rem 2rem;
+}
+
+div > .img {
+  width: 140px;
+}
+
+.text {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 50%;
+  align-items: flex-start;
+  font-size: rem;
 }
