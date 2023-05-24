@@ -6,7 +6,6 @@ const $overlay = document.querySelector('.overlay');
 function modalToggle(event) {
   $modal.classList.toggle('on');
   $overlay.classList.toggle('on');
-  console.log($modal.classList);
 }
 
 $modalButton.addEventListener('click', modalToggle);
