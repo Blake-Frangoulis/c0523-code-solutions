@@ -1,0 +1,22 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20rem;
+  left: 25rem;
+  font-size: 5rem;
+}
+
+.red {
+  color: red;
+}
+
+.current {
+  border-bottom: solid black;
+}
+
+.green {
+  color: green;
+  border-bottom: none;
+}
