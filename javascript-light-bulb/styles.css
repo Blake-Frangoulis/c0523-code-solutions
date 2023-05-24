@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.row.off {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(40, 40, 43);
+}
+
+.row.on {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(254, 249, 241);
+}
+
+.light-bulb.off {
+  display: flex;
+  border-radius: 50%;
+  background-color: gray;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+  height: 25rem;
+  width: 25rem;
+}
+
+.light-bulb.on {
+  display: flex;
+  border-radius: 50%;
+  background-color: rgb(250, 234, 132);
+  height: 25rem;
+  width: 25rem;
+}
