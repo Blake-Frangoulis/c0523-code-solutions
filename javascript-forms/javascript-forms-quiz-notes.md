@@ -20,7 +20,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   Tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would.
 
 - What does submitting a form without `event.preventDefault()` do?
-  Reloads the page. Removing all information the user input from the form.
+  Reloads the page.
 
 - What property of a form element object contains all of the form's controls.
   The elements property of HTMLFormElement.

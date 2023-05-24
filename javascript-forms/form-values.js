@@ -8,6 +8,7 @@ function formSubmit(event) {
     input: $contactForm.elements.message.value,
   };
   console.log(output);
+  $contactForm.reset();
 }
 
 $contactForm.addEventListener('submit', formSubmit);
