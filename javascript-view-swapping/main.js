@@ -11,13 +11,13 @@ function activeTab(event) {
         $tabElements[i].classList.remove('active');
       }
     }
-  }
-  const dataView = event.target.getAttribute('data-view');
-  for (let i = 0; i < $viewElements.length; i++) {
-    if ($viewElements[i].getAttribute('data-view') !== dataView) {
-      $viewElements[i].classList.add('hidden');
-    } else {
-      $viewElements[i].classList.remove('hidden');
+    const dataView = event.target.getAttribute('data-view');
+    for (let i = 0; i < $viewElements.length; i++) {
+      if ($viewElements[i].getAttribute('data-view') !== dataView) {
+        $viewElements[i].classList.add('hidden');
+      } else {
+        $viewElements[i].classList.remove('hidden');
+      }
     }
   }
 }
