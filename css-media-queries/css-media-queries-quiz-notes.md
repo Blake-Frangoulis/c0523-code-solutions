@@ -5,8 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Give two examples of media features that you can query in an `@media` rule.
+  You can enable certain css styles when the width is under a certain amount. You can enable other styles when the width is over a certain amount.
 
 - Which HTML meta tag is used in mobile-responsive web pages?
+  The viewport meta tag.
 
 ## Notes
 
