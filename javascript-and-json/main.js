@@ -23,6 +23,10 @@ const stringifyLibrary = JSON.stringify(library);
 console.log('stringifyLibrary:', stringifyLibrary);
 console.log('typeof stringifyLibrary:', typeof stringifyLibrary);
 
-const parsedString = JSON.parse(stringifyLibrary);
+const student = '{"numberID": 2813308004, "studentName": "Mike Jones"}';
+console.log('student', student);
+console.log('typeof student', typeof student);
+
+const parsedString = JSON.parse(student);
 console.log('parsedString:', parsedString);
 console.log('typeof parsedString:', typeof parsedString);
