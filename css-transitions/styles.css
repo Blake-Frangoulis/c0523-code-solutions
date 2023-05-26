@@ -22,7 +22,11 @@ section {
   font-size: 1rem;
   color: white;
   background-color: blue;
-  transition: ;
+  transition: 0.5s;
+}
+
+.custom-button:hover {
+  background-color: red;
 }
 
 .card-wrapper {
@@ -37,9 +41,13 @@ section {
   border-radius: 0.25rem;
   background-color: white;
   cursor: pointer;
-  transform: scale(1);
+  transition: all 0.2s ease-in-out;
 }
 
 .card > img {
   width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
