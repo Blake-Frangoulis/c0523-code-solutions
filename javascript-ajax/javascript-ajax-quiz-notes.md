@@ -14,8 +14,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   XMLHttpRequest
 
 - What event is fired by `XMLHttpRequest` objects when they are finished loading the data from the server?
+  The `load` event.
 
 - **Bonus Question**: An `XMLHttpRequest` object has an `addEventListener()` method just like DOM elements. How is it possible that they both share this functionality?
+  They inherited the method from the prototype.
 
 ## Notes
 
