@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are _hooks_ in React?
+  Special functions that are only available while React is rendering
 
 - What are the "Rules of Hooks"? (if necessary, re-read the "Pitfall" box in [State](https://react.dev/learn/state-a-components-memory))
 
