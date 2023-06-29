@@ -2,12 +2,30 @@ import { useState } from 'react';
 
 function RotatingBanner({ items }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  function handleNext(event) {
+    const nextIndex = (currentIndex + 1) % items.length;
+    setCurrentIndex(nextIndex);
+  }
+
+  function handlePrev(event) {
+    const prevIndex = (currentIndex - 1 + items.length) % items.length;
+    setCurrentIndex(prevIndex);
+  }
+
+  function handleSelect(index) {
+    setCurrentIndex(index);
+  }
   return (
     <div>
       <Banner item={items[currentIndex]} />
-      <PrevButton />
-      <Indicators count={items.length} />
-      <NextButton />
+      <PrevButton onPrev={handlePrev} />
+      <Indicators
+        count={items.length}
+        onSelect={handleSelect}
+        currentIndex={currentIndex}
+      />
+      <NextButton onNext={handleNext} />
     </div>
   );
 }
@@ -18,24 +36,42 @@ function Banner({ item, currentIndex }) {
     </div>
   );
 }
-function PrevButton() {
+function PrevButton({ onPrev }) {
   return (
     <div>
-      <button>Prev</button>
+      <button
+        onClick={onPrev}
+        type="button"
+        style={{ backgroundColor: 'white' }}>
+        Prev
+      </button>
     </div>
   );
 }
-function Indicators({ count, currentIndex }) {
+function Indicators({ count, currentIndex, onSelect }) {
   const buttonsArray = [];
   for (let i = 0; i < count; i++) {
-    buttonsArray.push(<button>{i}</button>);
+    buttonsArray.push(
+      <button
+        key={i}
+        type="button"
+        onClick={() => onSelect(i)}
+        style={{ backgroundColor: i === currentIndex ? 'lightblue' : 'white' }}>
+        {i}
+      </button>
+    );
   }
   return <div>{buttonsArray}</div>;
 }
-function NextButton() {
+function NextButton({ onNext }) {
   return (
     <div>
-      <button>Next</button>
+      <button
+        onClick={onNext}
+        type="button"
+        style={{ backgroundColor: 'white' }}>
+        Next
+      </button>
     </div>
   );
 }
