@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the phases in the React design process?
-  Starting from a UI mockup, detirmining the UI state that must be held in the components and where the state should live, then determining the events taht need to modify state, which child components they originate in and how parent components should respond to them.
+  Starting from a UI mockup, determining the UI state that must be held in the components and where the state should live, then determining the events that need to modify state, which child components they originate in and how parent components should respond to them.
 
 - How does data flow in React?
   From the top-level component to the ones at the bottom of the tree.
