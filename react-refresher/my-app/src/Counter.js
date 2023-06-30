@@ -1,9 +1,24 @@
-// import { useState } from "react";
+import { useState } from 'react';
 
-// export default function Counter() {
-//   const [count, setCount] = useState(0);
+function Counter() {
+  const [count, setCount] = useState(0);
 
-//   return (
+  function handleDown(event) {
+    const countDown = count - 1;
+    setCount(countDown);
+  }
 
-//   )
-// }
+  function handleUp(event) {
+    const countUp = count + 1;
+    setCount(countUp);
+  }
+
+  return (
+    <div>
+      <button onClick={handleDown}>Down</button> {count}{' '}
+      <button onClick={handleUp}>Up</button>
+    </div>
+  );
+}
+
+export default Counter;
