@@ -1,0 +1,500 @@
+   56  git push origin dom-manipulation 
+   57  git switch main
+   58  git switch css-canvas-medical 
+   59  git add css-canvas-medical/
+   60  git commit -m "partial work"
+   61  git switch main
+   62  git branch css-four-column-layout
+   63  git switch css-four-column-layout 
+   64  git add css-four-column-layout/
+   65  git commit -m "partial four column layout"
+   66  git switch main
+   67  git switch dom-manipulation 
+   68  git switch main
+   69  git branch javascript-light-bulb
+   70  git switch javascript-light-bulb 
+   71  git add javascript-light-bulb/
+   72  git commit -m "completed javascript-light-bulb"
+   73  git push origin javascript-light-bulb 
+   74  git switch main
+   75  git branch javascript-modal
+   76  git switch javascript-modal
+   77  git add javascript-modal/
+   78  git commit -m "completed javascript-modal"
+   79  git push origin javascript-modal
+   80  git switch main
+   81  git branch javascript-typing-tutor
+   82  git switch javascript-typing-tutor 
+   83  git add javascript-typing-tutor/
+   84  git commit -m "partial typing tutor"
+   85  git add javascript-typing-tutor/
+   86  git commit -m "partial typing tutor"
+   87  git add javascript-typing-tutor/
+   88  git commit -m "partial typing tutor"
+   89  git switch main
+   90  git switch css-canvas-medical 
+   91  git add css-canvas-medical/
+   92  git commit -m "progress canvas"
+   93  git switch main
+   94  git switch javascript-typing-tutor 
+   95  git add javascript-typing-tutor/
+   96  git commit -m "partial typing-tutor"
+   97  git switch css-four-column-layout 
+   98  git add css-four-column-layout/
+   99  git commit -m "progress four-column"
+  100  git switch javascript-typing-tutor 
+  101  git add javascript-typing-tutor/
+  102  git commit -m "nearly finished typing tutor"
+  103  git switch css-four-column-layout 
+  104  git add css-four-column-layout/
+  105  git commit -m "progress css four column layout"
+  106  git add css-four-column-layout/
+  107  git commit -m "progress css four column layout"
+  108  git switch javascript-typing-tutor 
+  109  git add javascript-typing-tutor/
+  110  git commit -m "completed javascript-typing-tutor"
+  111  git push origin javascript-typing-tutor 
+  112  git switch main
+  113  git switch css-four-column-layout 
+  114  git add css-four-column-layout/
+  115  git commit -m "four column"
+  116  git switch main
+  117  git branch javascript-forms
+  118  git switch javascript-forms 
+  119  git add javascript-forms/
+  120  git commit -m "completed javascript-forms"
+  121  git push origin javascript-forms 
+  122  git add javascript-forms/
+  123  git commit -m "added reset"
+  124  git push origin javascript-forms
+  125  git switch main
+  126  git switch javascript-modal 
+  127  git add javascript-modal/
+  128  git commit -m "removed console.logs and switched button element"
+  129  git push origin javascript-modal 
+  130  git switch css-two-column-layout 
+  131  git add css-two-column-layout/
+  132  git commit -m "centered columns"
+  133  git push origin
+  134  git push origin css-two-column-layout 
+  135  git switch main
+  136  git switch css-four-column-layout 
+  137  git switch main
+  138  git pull origin main
+  139  git branch dom-creation
+  140  git switch dom-creation 
+  141  git switch dom-creation 
+  142  git switch css-media-queries 
+  143  git switch css-transforms 
+  144  git switch main
+  145  git branch dom-event-delegation
+  146  git switch dom-event-delegation 
+  147  git add dom-event-delegation/
+  148  git commit -m "completed dom-event-delegation"
+  149  git push origin dom-event-delegation 
+  150  git switch main
+  151  git branch javascript-view-swapping
+  152  git switch javascript-view-swapping 
+  153  git add javascript-view-swapping/
+  154  git commit -m "completed javascript-view-swapping"
+  155  git push origin javascript-view-swapping 
+  156  git switch main
+  157  git switch javascript-view-swapping 
+  158  git add javascript-view-swapping/
+  159  git commit -m "added second section into if statement"
+  160  git push origin javascript-view-swapping 
+  161  git switch main
+  162  git switch css-canvas-medical 
+  163  git switch css-four-column-layout 
+  164  git status
+  165  git switch main
+  166  git add css-canvas-medical
+  167  git switch main
+  168  git status
+  169  git switch main
+  170  git status
+  171  git add css-canvas-medical/
+  172  git status
+  173  git commit -m "restarted assignment due to changes in package.json"
+  174  git status
+  175  git switch main
+  176  git status
+  177  git add .
+  178  git commit -m "modified package.json file"
+  179  git switch css-canvas-medical 
+  180  git status
+  181  commit -m "partial canvas medical"
+  182  git commit -m "partial canvas medical"
+  183  git switch main
+  184  git add css-canvas-medical/
+  185  git commit -m "partial canvas medical"
+  186  git add css-canvas-medical/
+  187  git commit -m "partial canvas medical"
+  188  git add css-canvas-medical/
+  189  git commit -m "partial canvas medical"
+  190  git switch main
+  191  git branch css-transitions
+  192  git switch css-transitions 
+  193  git add css-transitions/
+  194  git commit -m "partial css-transitions"
+  195  git switch css-canvas-medical 
+  196  git add css-canvas-medical/
+  197  git commit -m "partial canvas medical"
+  198  git switch main
+  199  git switch css-transitions 
+  200  git add css-transitions/
+  201  git commit -m "completed css-transitions"
+  202  git push origin css-transitions 
+  203  git switch main
+  204  git branch css-responsive-layout
+  205  git switch css-responsive-layout 
+  206  git add css-responsive-layout/
+  207  git commit -m "completed css-responsive-layout"
+  208  git push origin css-responsive-layout 
+  209  git switch mian
+  210  git switch main
+  211  git branch es6-template-literals
+  212  git switch es6-template-literals 
+  213  git add es6-template-literals/
+  214  git commit -m "completed es6 template literals"
+  215  git push origin es6-template-literals 
+  216  git add es6-template-literals/
+  217  git commit -m "corrected lines 28 and 32. was using template literal in incorrect place"
+  218  git push origin es6-template-literals 
+  219  git add es6-template-literals/
+  220  git commit -m "removed `+` on line 13"
+  221  git push origin es6-template-literals 
+  222  git switch main
+  223  git branch javascript-timers
+  224  git switch javascript-timers 
+  225  git add javascript-timers/
+  226  git commit -m "completed javascript-timers"
+  227  git push origin javascript-timers 
+  228  git switch main
+  229  git branch javascript-carousel
+  230  git switch javascript-carousel 
+  231  git add javascript-carousel/
+  232  git commit -m "started carousel"
+  233  git switch main
+  234  git branch http-messages
+  235  git switch http-messages 
+  236  http https://example.com
+  237  http --verbose https://example.com
+  238  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  239  http --body GET https://example.com > http-messages/index.html
+  240  git add http-messages/
+  241  git commit -m "completed http-messages"
+  242  git push origin http-messages 
+  243  git switch main
+  244  git pull origin main
+  245  git branch javascript-new
+  246  git switch javascript-new
+  247  git add javascript-new/
+  248  git commit -m "completed javascript-new"
+  249  git push origin javascript-new
+  250  git switch main
+  251  git pull origin main
+  252  git branch javascript-ajax
+  253  git switch javascript-ajax 
+  254  git add javascript-ajax/
+  255  git commit -m "completed javascript-ajax"
+  256  git add javascript-ajax/
+  257  git commit -m "finished missing quiz questions"
+  258  git push origin javascript-ajax 
+  259  git switch main
+  260  git switch javascript-ajax 
+  261  git switch main
+  262  git branch test
+  263  git switch test
+  264  git switch main
+  265  git branch array-methods
+  266  git switch array-methods 
+  267  git add array-methods/
+  268  git commit -m "partial array-methods"
+  269  git switch main
+  270  git branch es6-operators
+  271  git switch es6-operators 
+  272  git add es6-operators/
+  273  git commit -m "completed es6-operators"
+  274  git push origin es6-operators 
+  275  git switch main
+  276  git branch big-o-notation
+  277  git switch big-o-notation 
+  278  git add big-o-notation/
+  279  git commit -m "started big-o-notation"
+  280  git switch main
+  281  git branch npm-intro
+  282  git switch npm-intro 
+  283  cd npm-into
+  284  cd npm-intro
+  285  cd ..
+  286  git add npm-intro/
+  287  git commit -m "quiz questions npm-intro"
+  288  git switch main
+  289  git switch big-o-notation 
+  290  git add big-o-notation/
+  291  git commit -m "partial big-o-notation"
+  292  git switch main
+  293  git switch npm-intro 
+  294  git switch main
+  295  git branch webpack-and-babel
+  296  git switch webpack-and-babel 
+  297  cd webpack-and-babel/
+  298  cd ..
+  299  git add webpack-and-babel/
+  300  git commit -m "completed webpack-and-babel"
+  301  git push origin webpack-and-babel 
+  302  git add webpack-and-babel/
+  303  git commit -m "changed f6 import"
+  304  git switch main
+  305  git branch react-intro
+  306  git switch react-intro 
+  307  cd react-intro/
+  308  npx create-react-app react-intro
+  309  cd react-intro
+  310  npm start
+  311  cd ..
+  312  cd ..
+  313  cd react-intro/
+  314  cd react-intro
+  315  cd .. ..
+  316  cd ....
+  317  cd ..
+  318  cd ..
+  319  git add react-intro/
+  320  git commit -m "completed react-intro"
+  321  git push origin react-intro 
+  322  git commit -m "updated quiz questions"
+  323  git add react-intro/
+  324  git commit -m "updated quiz questions"
+  325  cd react-components/
+  326  npx create-react-app my-app
+  327  cd my-app/
+  328  npm start
+  329  cd ../..
+  330  git add react-components/
+  331  git commit -m "mostly finished react-components"
+  332  cd react-components/
+  333  cd my-app/
+  334  cd ..
+  335  cd ..
+  336  git add react-components/
+  337  cd react-components/
+  338  cd my-app/
+  339  npm start
+  340  cd ../..
+  341  git add react-components/
+  342  git commit -m "completed react-components"
+  343  git push origin react-components 
+  344  git switch main
+  345  git branch react-props-and-expressions
+  346  git switch react-props-and-expressions 
+  347  cd react-props-and-expressions/
+  348  npx create-react-app my-app
+  349  cd my-app/
+  350  npm start
+  351  npm start
+  352  git add react-props-and-expressions/
+  353  git commit -m "partial react-props-and-expressions"
+  354  git switch main
+  355  git branch react-refresher
+  356  git switch react-refresher 
+  357  cd react-refresher/
+  358  npx create-react-app my-app
+  359  cd my-app/
+  360  npm start
+  361  cd ..
+  362  cd ..
+  363  git add react-refresher/
+  364  git commit -m "quiz questions completed react-refresher"
+  365  git add react-refresher/
+  366  git commit -m "quiz questions completed react-refresher"
+  367  git switch main
+  368  git switch react-props-and-expressions 
+  369  cd react-props-and-expressions/
+  370  cd my-app/
+  371  npm start
+  372  cd ..
+  373  cd ..
+  374  cd react-props-and-expressions/
+  375  cd my-app/
+  376  cd ..
+  377  cd ..
+  378  git add react-props-and-expressions/
+  379  git commit -m "completed react-props-and-expressions"
+  380  git push origin react-props-and-expressions 
+  381  git switch main
+  382  git branch react-events
+  383  git switch react-events
+  384  cd react-events/
+  385  npx create-react-app my-app
+  386  cd react-events
+  387  npx create-react-app my-app
+  388  npm start
+  389  cd my-app/
+  390  npm start
+  391  cd ..
+  392  cd ..
+  393  git add react-events/
+  394  git commit -m "completed react-events"
+  395  git push origin react-events 
+  396  git switch main
+  397  git branch react-state
+  398  git switch react-state 
+  399  git add react-state/
+  400  git commit -m "started react-state"
+  401  git switch main
+  402  git branch react-rendering-lists
+  403  git switch react-rendering-lists 
+  404  cd react-rendering-lists/
+  405  npx create-react-app my-app
+  406  cd my-app/
+  407  npm start
+  408  cd ..
+  409  cd ..
+  410  git add react-rendering-lists/
+  411  git commit -m "completed react-rendering-lists"
+  412  git push origin react-rendering-lists 
+  413  git add react-rendering-lists
+  414  git commit -m "updated quiz questions"
+  415  git switch main
+  416  git switch react-state 
+  417  cd react-state/
+  418  npx create-react-app my-app
+  419  cd my-app/
+  420  npm start
+  421  cd ..
+  422  cd ..
+  423  git add react-state/
+  424  git commit -m "mostly finished react-state"
+  425  git switch main
+  426  git branch react-form-controls
+  427  git switch react-form-controls 
+  428  cd react-form-controls/
+  429  npx create-react-app my-app
+  430  git switch main
+  431  git branch react-design
+  432  git switch react-design 
+  433  cd react-design/
+  434  npx create-react-app my-app
+  435  cd my-app/
+  436  npm start
+  437  cd ..
+  438  cd ..
+  439  git add react-design/
+  440  git commit -m "react-design"
+  441  git commit --ammend
+  442  git commit --amend
+  443  git add react-design/
+  444  git commit -m "first phase react-design"
+  445  git push origin react-design 
+  446  cd react-design/
+  447  cd my-app/
+  448  npm start
+  449  cd react-design/
+  450  cd my-app/
+  451  npm start
+  452  cd ..
+  453  cd ..
+  454  git add react-design/
+  455  git commit -m "completed second phase react-design"
+  456  git push origin react-design 
+  457  cd react-design/
+  458  cd my-app/
+  459  npm start
+  460  cd ..
+  461  cd ..
+  462  git add react-design/
+  463  git add react-design/
+  464  git commit -m "moved definitions of sub-components outside of RotatingBanner component definition. Adjusted Indicators component to no longer use items.map"
+  465  git push origin react-design 
+  466  cd react-design/
+  467  cd my-app/
+  468  npm start
+  469  npm start
+  470  cd ..
+  471  cd ..
+  472  git add react-design/
+  473  git commit -m "completed react-design"
+  474  git push origin react-design 
+  475  git switch main
+  476  git switch react-state 
+  477  git switch react-refresher 
+  478  git switch react-state 
+  479  git add react-state/
+  480  cd react-state/
+  481  cd my-app/
+  482  npm start
+  483  cd ..
+  484  cd ..
+  485  git add react-state/
+  486  git commit -m "completed react-state"
+  487  git push origin react-state 
+  488  git switch react-refresher 
+  489  cd react-refresher/
+  490  cd my-app/
+  491  npm start
+  492  cd react-refresher/
+  493  cd my-app/
+  494  npm start
+  495  cd ..
+  496  cd ..
+  497  git add react-refresher/
+  498  git commit -m "completed react-refresher"
+  499  git push origin react-refresher 
+  500  git switch main
+  501  git branch command-line-basics
+  502  git switch command-line-basics 
+  503  cd command-line-basics/
+  504  man man
+  505  man cat
+  506  cat laziness.txt impatience.txt hubris.txt
+  507  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  508  cat three-virtues.txt 
+  509  man ls
+  510  ls
+  511  ls -a
+  512  man ls
+  513  ls -f
+  514  ls -F
+  515  ls -aF lfz-staff > lfz-staff/contents.txt
+  516  cat lfz-staff/contents.txt 
+  517  man pwd
+  518  pwd
+  519  pwd > i-was-here.txt
+  520  ls
+  521  cat i-was-here.txt 
+  522  man echo
+  523  echo 'Hello, World!'
+  524  echo 'Hello, World!' > hello.txt
+  525  ls
+  526  cat hello.txt 
+  527  man touch
+  528  touch tag-youre-it.txt
+  529  touch snoot/boop.txt
+  530  man touch
+  531  man mkdir
+  532  man mkdir
+  533  mkdir parent
+  534  mkdir -p parent/child/grandchild
+  535  touch parent/child/grandchild/.gitkeep
+  536  ls -a
+  537  ls parent -a
+  538  ls parent/child/grandchild -a
+  539  man mv
+  540  mv pokiemans pokemon
+  541  ls
+  542  man rm
+  543  man cp
+  544  rm lol.txt
+  545  man rm
+  546  rm -r kill-me/
+  547  ls
+  548  man cp
+  549  cp and-then.txt no-and-then.txt
+  550  ls
+  551  cat and-then.txt no-and-then.txt 
+  552  man history
+  553  man history
+  554  history
+  555  history > command-history.txt
